@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.coursera.android.capstone.client"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="org.coursera.android.capstone.client.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="org.coursera.android.capstone.client.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="org.coursera.android.capstone.client.PocketMdClientApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.coursera.android.capstone.client.ui.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.patient.PatientMainActivity"
+            android:label="@string/title_activity_patient_main" >
+        </activity>
+        <activity
+            android:name=".ui.patient.PatientCheckInActivity"
+            android:label="@string/title_activity_patient_check_in" >
+        </activity>
+        <activity
+            android:name=".ui.patient.PatientSettingsActivity"
+            android:label="@string/title_activity_patient_settings" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.DoctorMainActivity"
+            android:label="@string/title_activity_doctor_main" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.DoctorSearchActivity"
+            android:label="@string/title_activity_doctor_search" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.DoctorListActivity"
+            android:label="@string/title_activity_doctor_list" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.DoctorPatientDetailsActivity"
+            android:label="@string/title_activity_patient_view" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.DoctorPatientPrescriptionsActivity"
+            android:label="@string/title_activity_patient_prescriptions" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.DoctorPatientCheckinsListActivity"
+            android:label="@string/title_activity_patient_check_ins" >
+        </activity>
+        <activity
+            android:name=".ui.doctor.DoctorPatientCheckinDetailsActivity"
+            android:label="@string/title_activity_patient_checkin_details" >
+        </activity>
+
+        <receiver
+            android:name=".alarm.PatientCheckInNotificationBroadcastReceiver" />
+        <receiver
+            android:name=".BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="org.coursera.android.capstone.client" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".alarm.PatientCheckInNotificationService" />
+        <service android:name=".gcm.GcmIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

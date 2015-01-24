@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="grid_horizontal_margin">5dp</dimen>
+    <dimen name="grid_vertical_margin">5dp</dimen>
+
+    <dimen name="list_row_padding">10dp</dimen>
+
+    <dimen name="radio_group_horizontal_margin">10dp</dimen>
+    <dimen name="radio_group_vertical_margin">10dp</dimen>
+
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="patient_details_grid_first_column_spacer">150dp</dimen>
+
+    <dimen name="checkin_details_grid_first_column_spacer">200dp</dimen>
+
+    <dimen name="checkin_details_medication_grid_first_column_spacer">180dp</dimen>
+
+    <dimen name="medications_grid_horizontal_margin">20dp</dimen>
+
+</resources>

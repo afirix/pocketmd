@@ -1,0 +1,23 @@
+2014-11-21 08:00:55.205 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 38860 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+2014-11-21 08:01:14.878 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Creating SNS platform application 
+2014-11-21 08:01:15.922 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Platform application created: {PlatformApplicationArn: arn:aws:sns:us-east-1:956937837608:app/GCM/pocketmd} 
+2014-11-21 08:01:18.214 [main] INFO  o.c.a.capstone.server.Application - Started Application in 23.442 seconds (JVM running for 24.709) 
+2014-11-21 08:03:29.397 [http-nio-8443-exec-5] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 08:10:04.240 [http-nio-8443-exec-2] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 08:14:56.532 [http-nio-8443-exec-8] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 08:21:05.591 [http-nio-8443-exec-4] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 08:21:13.847 [http-nio-8443-exec-1] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 08:31:35.195 [http-nio-8443-exec-7] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 08:35:30.131 [http-nio-8443-exec-3] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:17:26.284 [http-nio-8443-exec-8] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:22:24.906 [http-nio-8443-exec-4] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:26:29.050 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 52732 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+2014-11-21 23:26:46.652 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Creating SNS platform application 
+2014-11-21 23:26:47.744 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Platform application created: {PlatformApplicationArn: arn:aws:sns:us-east-1:956937837608:app/GCM/pocketmd} 
+2014-11-21 23:26:49.871 [main] INFO  o.c.a.capstone.server.Application - Started Application in 21.278 seconds (JVM running for 22.775) 
+2014-11-21 23:28:24.725 [http-nio-8443-exec-5] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:32:39.772 [http-nio-8443-exec-1] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:43:27.127 [http-nio-8443-exec-7] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:51:50.547 [http-nio-8443-exec-3] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:58:29.150 [http-nio-8443-exec-9] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 
+2014-11-21 23:58:42.294 [http-nio-8443-exec-6] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 

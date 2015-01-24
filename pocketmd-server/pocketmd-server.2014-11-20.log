@@ -1,0 +1,24 @@
+08:05:16.297 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 16761 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+08:05:16.298 [main] DEBUG o.c.a.capstone.server.Application - Running with Spring Boot v1.1.9.RELEASE, Spring v4.1.2.RELEASE 
+08:05:42.203 [main] INFO  o.c.a.capstone.server.Application - Started Application in 26.364 seconds (JVM running for 27.917) 
+08:06:00.754 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 16763 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+08:06:18.380 [main] INFO  o.c.a.capstone.server.Application - Started Application in 17.992 seconds (JVM running for 18.781) 
+08:07:06.522 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 16768 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+08:07:24.806 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 16769 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+08:07:44.666 [main] INFO  o.c.a.capstone.server.Application - Started Application in 20.217 seconds (JVM running for 20.981) 
+2014-11-20 22:53:08.821 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 38162 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+2014-11-20 22:53:25.125 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Creating SNS platform application 
+2014-11-20 22:53:26.276 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Platform application created: %s 
+2014-11-20 22:53:51.841 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 38204 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+2014-11-20 22:54:04.463 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Creating SNS platform application 
+2014-11-20 22:54:05.430 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Platform application created: %s 
+2014-11-20 22:54:07.293 [main] INFO  o.c.a.capstone.server.Application - Started Application in 15.764 seconds (JVM running for 16.435) 
+2014-11-20 23:19:22.296 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 38511 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+2014-11-20 23:19:35.860 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Creating SNS platform application 
+2014-11-20 23:19:36.956 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Platform application created: {PlatformApplicationArn: arn:aws:sns:us-east-1:956937837608:app/GCM/pocketmd} 
+2014-11-20 23:19:38.806 [main] INFO  o.c.a.capstone.server.Application - Started Application in 16.812 seconds (JVM running for 17.492) 
+2014-11-20 23:30:23.096 [main] INFO  o.c.a.capstone.server.Application - Starting Application on 10ddb1c4b160.ant.amazon.com with PID 38767 (/Users/epshteyn/Development/capstone/pocketmd/pocketmd-server/target/classes started by epshteyn in /Users/epshteyn/Development/capstone/pocketmd/pocketmd-server) 
+2014-11-20 23:30:43.105 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Creating SNS platform application 
+2014-11-20 23:30:44.363 [main] INFO  o.c.a.c.s.i.alert.DoctorAlertSender - Platform application created: {PlatformApplicationArn: arn:aws:sns:us-east-1:956937837608:app/GCM/pocketmd} 
+2014-11-20 23:30:46.775 [main] INFO  o.c.a.capstone.server.Application - Started Application in 24.343 seconds (JVM running for 26.939) 
+2014-11-20 23:30:53.841 [http-nio-8443-exec-5] INFO  o.c.a.c.s.impl.PocketMdServiceImpl - Request: getCurrentPatient() | coming from user 1 

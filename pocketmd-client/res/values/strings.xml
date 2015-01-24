@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PocketMD</string>
+    <string name="project_number">269561077342</string>
+
+    <!-- Common strings -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Enumerations -->
+    <string name="WELL_CONTROLLED">Well-controlled</string>
+    <string name="MODERATE">Moderate</string>
+    <string name="SEVERE">Severe</string>
+    <string name="NO">No</string>
+    <string name="SOME">Some</string>
+    <string name="CANT_EAT">I can\'t eat</string>
+
+    <!-- Menus -->
+    <string name="action_signout">Sign out</string>
+    <string name="action_exit">Exit</string>
+
+    <!-- Login activity -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_login_failed">Login failed. Please try again</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Patient Main activity -->
+    <string name="title_activity_patient_main">Main Menu</string>
+    <string-array name="patient_main_menu">
+        <item>Check in now</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- Patient Check-in activity -->
+    <string name="title_activity_patient_check_in">New Check-in</string>
+    <string name="prompt_pain_severity">How bad is your mouth pain/sore throat?</string>
+    <string name="prompt_eating_problems">Does your pain stop you from eating/drinking?</string>
+    <string name="prompt_medication_intake">Did you take your pain medication?</string>
+    <string name="prompt_medication_intake_template">Did you take your %s?</string>
+    <string name="set_medication_intake_time_button">When?</string>
+    <string name="checkin_button">Check In!</string>
+    <string name="checkin_succeeded">Check-in completed!</string>
+    <string name="error_checkin_failed">Cannot check in now. Please try again</string>
+    <string name="error_medication_intake_validation_failed">You did not specify the time when you took your pain medication!</string>
+
+    <!-- Patient Settings activity -->
+    <string name="title_activity_patient_settings">Settings</string>
+    <string name="settings_checkin_label">Set Check-in times</string>
+    <string name="add_new_checkin_time_button">Add</string>
+    <string name="save_settings_button">Save</string>
+    <string name="checkin_time_deleted">%s deleted</string>
+    <string name="error_too_few_checkins">You should have at least %d check-ins per day!</string>
+
+    <!-- Doctor Main activity -->
+    <string name="title_activity_doctor_main">Main Menu</string>
+    <string-array name="doctor_main_menu">
+        <item>Search Patient by Name</item>
+        <item>List All Patients</item>
+    </string-array>
+
+    <!-- Doctor Search Activity -->
+    <string name="title_activity_doctor_search">Search Patient</string>
+    <string name="prompt_patient_name">Patient Name</string>
+    <string name="action_search">Search</string>
+    <string name="error_patient_search_failed">Search failed. Please try again</string>
+    <string name="error_patient_is_not_found">Patient is not found</string>
+
+    <!-- Doctor List Activity -->
+    <string name="title_activity_doctor_list">Patients</string>
+    <string name="error_patients_list_failed">Patients list cannot be loaded. Please try again</string>
+    <string name="error_no_patients_found">No patients assigned to you</string>
+
+    <!-- Dotor Patient Details Activity -->
+    <string name="title_activity_patient_view">Patient Details</string>
+    <string name="full_name_label">Full Name:</string>
+    <string name="medical_number_label">Medical #:</string>
+    <string name="dob_label">Date of Birth:</string>
+    <string name="checkins_button">Check-ins</string>
+    <string name="prescriptions_button">Prescriptions</string>
+
+    <!-- Doctor Patient Prescriptions Activity -->
+    <string name="title_activity_patient_prescriptions">%s\'s Prescriptions</string>
+    <string name="assign_new_medication_button">Assign New</string>
+    <string name="unassign_medication_button">Unassign</string>
+    <string name="assign_new_medication_prompt_title">New Prescription</string>
+    <string name="assign_new_medication_prompt_message">Medication Name:</string>
+    <string name="error_assign_medication_failed">New medication cannot be assigned now. Please try again</string>
+    <string name="error_unassign_medications_failed">Medication(s) cannot be unassigned now. Please try again</string>
+    <string name="error_no_medications_to_unassign">No medications were selected</string>
+    <string name="error_cannot_unassign_all_medications">The patient must have at least one medication</string>
+
+    <!-- Doctor Patient Check-ins Activity -->
+    <string name="title_activity_patient_check_ins">%s\'s Check-ins</string>
+    <string name="error_cannot_find_patient_data">Patient\'s data cannot be loaded. Please try again</string>
+
+    <!-- Doctor Patient Check-in Details Activity -->
+    <string name="title_activity_patient_checkin_details">Check-in Details</string>
+    <string name="checkin_date_label">Date:</string>
+    <string name="checkin_time_label">Time:</string>
+    <string name="checkin_pain_severity_label">Pain Severity:</string>
+    <string name="checkin_eating_problems_label">Eating/Drinking Problems:</string>
+    <string name="checkin_medications_taken_label">Medications taken:</string>
+
+    <!-- Exit Confirmation -->
+    <string name="prompt_exit">Are you sure you want to exit?</string>
+
+    <!-- Doctor Alert Notification -->
+    <string name="alert_notification_title">PocketMD Alert</string>
+
+    <!-- Check-in Notification -->
+    <string name="checkin_notification_title">Time to Check-in!</string>
+    <string name="checkin_notification_text">It\'s %s! You must check in now!</string>
+
+</resources>
